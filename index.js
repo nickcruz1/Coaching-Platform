@@ -18,3 +18,18 @@ var entryArray = [(userID.one + " " + userName.nick), (userID.two + " " + userNa
 console.log(entryArray[0]);
 console.log(entryArray[1]);
 console.log(entryArray[2]);
+
+
+function throwArray() {
+  let output = document.getElementById("output");
+  // entryArray.style.border = "2px solid blue";
+  // entryArray.style.backgroundColor = "white";
+  output.innerHTML = entryArray;
+  output.style.color = "white";
+  output.style.backgroundColor = "blue";
+  output.style.border = "1px solid white";
+  output.style.justifyContent = "center";
+  output.style.flexDirection = "column";
+ 
+  
+}
