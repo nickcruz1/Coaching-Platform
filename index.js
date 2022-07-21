@@ -45,3 +45,10 @@ function deleteEntry1() {
 user1.innerHTML = "";
   
 }
+
+function deleteEntry2() {
+  let user2 = document.querySelector(".user2");
+ 
+user2.innerHTML = "";
+  
+}
