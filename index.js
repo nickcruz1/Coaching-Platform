@@ -59,3 +59,32 @@ function deleteEntry3() {
 user3.innerHTML = "";
   
 }
+
+// <!-- Add Function --> 
+// <!-- Have function create elements and append to the top?/append to new array -->
+function addEntry() {
+  let newUser = document.getElementById("newUser");
+  
+   <!-- Create New Elements -->
+let myinput = document.createElement("input");
+  let mybtn = document.createElement("p");
+  let mybtn2 = document.createElement("p");
+  
+  mybtn.innerText = "Edit +";
+  mybtn2.innerText = "Delete -";
+myinput.value = newUser.value;
+  myinput.style.display = "block";
+  myinput.style.margin = "auto";
+  myinput.style.marginTop = "0.5rem";
+  
+ 
+
+// Append to body:
+document.body.appendChild(myinput);
+document.body.appendChild(mybtn);
+document.body.appendChild(mybtn2);
+
+  
+  console.log("New Entry Added")
+  
+}
