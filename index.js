@@ -11,3 +11,5 @@ var userName = {
   dave: "Dave",
   jess: "Jessica"
 }
+
+var entryArray = [(userID.one + " " + userName.nick), (userID.two + " " + userName.dave), (userID.three + " " + userName.jess)];
