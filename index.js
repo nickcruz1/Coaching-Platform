@@ -13,3 +13,8 @@ var userName = {
 }
 
 var entryArray = [(userID.one + " " + userName.nick), (userID.two + " " + userName.dave), (userID.three + " " + userName.jess)];
+
+<!-- Testing Purposes -->
+console.log(entryArray[0]);
+console.log(entryArray[1]);
+console.log(entryArray[2]);
