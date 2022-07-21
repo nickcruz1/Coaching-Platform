@@ -5,3 +5,9 @@ var userID = {
   two: "User 2",
   three: "User 3"
 }
+
+var userName = {
+  nick: "Nick",
+  dave: "Dave",
+  jess: "Jessica"
+}
