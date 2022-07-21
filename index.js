@@ -33,3 +33,15 @@ function throwArray() {
  
   
 }
+
+// <!-- Edit Function -->
+// function editEntry() {}
+
+<!-- Delete Function -->
+<!-- Set innerHTML to "" and setLocalStorage so change persists -->
+function deleteEntry1() {
+  let user1 = document.querySelector(".user1");
+ 
+user1.innerHTML = "";
+  
+}
