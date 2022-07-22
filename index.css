@@ -1,4 +1,5 @@
 :root: {
   --primary: #00FFFF;
   --secondary: #000080;
+  --quick: 500ms;
 }
