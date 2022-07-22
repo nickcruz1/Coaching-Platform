@@ -3,4 +3,5 @@
   --secondary: #000080;
   --quick: 500ms;
   --normal: 1s;
+  --slow: 2s;
 }
