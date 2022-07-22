@@ -39,12 +39,10 @@ function throwArray() {
 
 <!-- Delete Function -->
 <!-- Set innerHTML to "" and setLocalStorage so change persists -->
-function deleteEntry1() {
-  let user1 = document.querySelector(".user1");
- 
-user1.innerHTML = "";
-  
+function deleteEntry(e) {
+e.parentElement.remove();
 }
+
 
 function deleteEntry2() {
   let user2 = document.querySelector(".user2");
