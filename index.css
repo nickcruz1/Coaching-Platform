@@ -4,4 +4,5 @@
   --quick: 500ms;
   --normal: 1s;
   --slow: 2s;
+  --veryslow: 5s;
 }
